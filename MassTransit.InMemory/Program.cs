@@ -1,4 +1,5 @@
 using MassTransit;
+using MassTransit.InMemory;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +11,8 @@ builder.Services.AddMassTransit(cfg =>
     cfg.SetKebabCaseEndpointNameFormatter();
     cfg.UsingInMemory((context, config) => config.ConfigureEndpoints(context));
 });
+
+builder.Services.AddHostedService<MessagePublisher>();
 
 var app = builder.Build();
 
