@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransit.InMemory", "MassTransit.InMemory\MassTransit.InMemory.csproj", "{72D0A8BF-239C-4E5B-BD64-76DA8112771B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransit.InMemory2", "MassTransit.InMemory2\MassTransit.InMemory2.csproj", "{F5C0A23E-ABC2-4BD8-8EF0-8E32D9025E20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{72D0A8BF-239C-4E5B-BD64-76DA8112771B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72D0A8BF-239C-4E5B-BD64-76DA8112771B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72D0A8BF-239C-4E5B-BD64-76DA8112771B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5C0A23E-ABC2-4BD8-8EF0-8E32D9025E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C0A23E-ABC2-4BD8-8EF0-8E32D9025E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C0A23E-ABC2-4BD8-8EF0-8E32D9025E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C0A23E-ABC2-4BD8-8EF0-8E32D9025E20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
