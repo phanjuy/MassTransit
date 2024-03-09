@@ -1,0 +1,6 @@
+@MassTransit.InMemory_HostAddress = http://localhost:5247
+
+GET {{MassTransit.InMemory_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
