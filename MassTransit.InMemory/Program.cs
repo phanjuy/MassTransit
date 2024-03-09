@@ -9,6 +9,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddMassTransit(cfg =>
 {
     cfg.SetKebabCaseEndpointNameFormatter();
+    cfg.AddConsumer<CurrentTimeConsumer>();
     cfg.UsingInMemory((context, config) => config.ConfigureEndpoints(context));
 });
 
