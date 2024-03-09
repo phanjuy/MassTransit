@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using MassTransit.InMemory2;
+
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddHostedService<PingPublisher>();
+
+var app = builder.Build();
+
+app.Run();
