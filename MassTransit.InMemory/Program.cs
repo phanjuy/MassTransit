@@ -10,6 +10,7 @@ builder.Services.AddMassTransit(cfg =>
 {
     cfg.SetKebabCaseEndpointNameFormatter();
     cfg.AddConsumer<CurrentTimeConsumer>();
+    cfg.AddConsumer<CurrentTimeConsumerV2>();
     cfg.UsingInMemory((context, config) => config.ConfigureEndpoints(context));
 });
 
